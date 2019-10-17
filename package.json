@@ -15,7 +15,8 @@
     "test": "nodeunit",
     "test-debug": "TESTS_VERBOSE_LOGGING=1 nodeunit",
     "prepublish": "npm run build && npm run gendocs",
-    "gendocs": "rm -rf docs && jsdoc src -r -d docs"
+    "gendocs": "rm -rf docs && jsdoc src -r -d docs",
+    "prepare": "npm run build"
   },
   "files": [
     "lib",
